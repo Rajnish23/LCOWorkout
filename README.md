@@ -40,7 +40,24 @@ NOTE:
 2. Use our logo and assets
 
 <h3>UI Screenshots</h3>
-Reference-style: 
-![alt text][logo]
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/Rajnish23/LCOWorkout/blob/master/images/lco_workout_screen1.jpg" height="500px"/>
+    </td>
+    <td>
+      <img src="https://github.com/Rajnish23/LCOWorkout/blob/master/images/lco_workout_screen2.jpg" height="500px"/>
+    </td>
+    <td>
+      <img src="https://github.com/Rajnish23/LCOWorkout/blob/master/images/lco_workout_screen3.jpg" height="500px"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/Rajnish23/LCOWorkout/blob/master/images/lco_workout_screen_4.jpg" height="500px"/>
+    </td>
+    <td>
+      <img src="https://github.com/Rajnish23/LCOWorkout/blob/master/images/lco_workout_screen5.jpg" height="500px"/>
+    </td>
+  </tr>
 
-[logo]: https://github.com/Rajnish23/LCOWorkout/blob/master/images/lco_workout_screen1.jpg "Screenshot 1"
