@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">LCO Workout App</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="more">More</string>
+    <string name="about_app">About</string>
+    <string name="break_text">It\'s Break Time</string>
+
+    <string-array name="biceps">
+        <item>Curls</item>
+        <item>Hammer Curls</item>
+        <item>Reverse Curls</item>
+        <item>Barbell Curls</item>
+        <item>Low Pulley Curls</item>
+    </string-array>
+
+
+    <string-array name="triceps">
+        <item>Push-Downs</item>
+        <item>Bar Triceps</item>
+        <item>Triceps Dips</item>
+        <item>Triceps Pushdown</item>
+        <item>Dumbbell Triceps</item>
+    </string-array>
+
+    <string-array name="chest">
+        <item>Bench Press</item>
+        <item>Incline Presses</item>
+        <item>Push-Ups</item>
+        <item>Incline Push-Ups</item>
+        <item>Dumbbell Press</item>
+    </string-array>
+
+    <string-array name="back">
+        <item>Chin-Ups</item>
+        <item>Deadlifts</item>
+        <item>Seated Rows</item>
+        <item>Lat Pull-Downs</item>
+        <item>Reverse Chin-Ups</item>
+    </string-array>
+
+    <string-array name="legs">
+        <item>Squat</item>
+        <item>Dumbbell Lunges</item>
+        <item>Dumbbell Squats</item>
+        <item>Power Squats</item>
+        <item>Single Leg Squat</item>
+    </string-array>
+
+    <string-array name="shoulder">
+        <item>Back Presses</item>
+        <item>Upright Rows</item>
+        <item>Front Raises</item>
+        <item>Arnold Press</item>
+        <item>Lateral Raises</item>
+    </string-array>
+
+    <integer-array name="workout_res_id">
+        <item>@drawable/push_ups</item>
+        <item>@drawable/abs</item>
+        <item>@drawable/biceps</item>
+        <item>@drawable/shoulder</item>
+        <item>@drawable/chest_press</item>
+        <item>@drawable/back</item>
+        <item>@drawable/sitp_crunch</item>
+        <item>@drawable/vertical_leg_crunch</item>
+        <item>@drawable/incline_dumbbell_bench_press</item>
+        <item>@drawable/mountain_climber</item>
+    </integer-array>
+
+    <string-array name="weeks">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    <string name="developer_name">Developer- Rajnish Suryavanshi</string>
+    <string name="youtube_link">Youtube Link: <font color="#0000FF">https://www.youtube.com/watch?v=VFrKjhcTAzE&amp;t=673s</font></string>
+    <string name="city">City- Kuwait City, Kuwait</string>
+</resources>

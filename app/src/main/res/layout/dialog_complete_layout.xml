@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/celebration_lottie_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_rawRes="@raw/celebration"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+        <TextView
+            android:id="@+id/msg"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_below="@id/celebration_lottie_view"
+            android:text="Hurray!! you are done for the day. \nSee you tomorrow."/>
+
+        <Button
+            android:id="@+id/ok_btn"
+            android:layout_below="@id/msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_centerHorizontal="true"
+            android:text="Ok"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

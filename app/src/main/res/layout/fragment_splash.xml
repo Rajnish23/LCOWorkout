@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.splash.SplashFragment">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/logo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="2dp"
+            app:layout_constraintStart_toStartOf="@id/guidelinestart"
+            app:layout_constraintEnd_toStartOf="@id/guidelineend"
+            app:layout_constraintTop_toBottomOf="@id/guidelintop">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lco_workout_logo_transparent"/>
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/chinup_animation"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinestart"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guidelintop"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineend"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guidelintop"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelintop"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinebottom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/random_mode_tn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Random Mode"
+        android:textAllCaps="false"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/white"
+        android:elevation="2dp"
+        app:rippleColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="@id/guidelinestart"
+        app:layout_constraintEnd_toStartOf="@id/guidelineend"
+        app:layout_constraintBottom_toTopOf="@id/day_mode_btn"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/day_mode_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Daywise Mode"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/white"
+        app:rippleColor="@color/colorPrimary"
+        android:layout_marginBottom="32dp"
+        android:elevation="2dp"
+        app:layout_constraintStart_toStartOf="@id/guidelinestart"
+        app:layout_constraintEnd_toStartOf="@id/guidelineend"
+        app:layout_constraintBottom_toTopOf="@id/guidelinebottom"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
